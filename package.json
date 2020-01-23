@@ -45,8 +45,8 @@
   },
   "lint-staged": {
     "*.js": [
-      "npm run lint:fix --allow-empty",
-      "git add"
+      "npm run lint:fix",
+      "git add --allow-empty"
     ]
   }
 }
